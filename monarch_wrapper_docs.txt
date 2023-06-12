@@ -1,0 +1,44 @@
+API documentation:
+Endpoint: http://localhost:3434
+
+GET /search
+
+This endpoint is for searching for biomedical entities such as Diseases, Genes, and Phenotypes, by their common name.
+
+Query parameters table:
+term | string | Search term, e.g., "Marfan's Syndrome", "CYP6B", "Microcephaly" | required
+category | string | What category to search in? Available values: biolink:Disease, biolink:Gene, biolink:Phenotype | required
+limit | integer | Maximum number of results to return. A valid value should be an integer between 1 and 10 (inclusive) | required
+offset | integer | Number of results to skip (for pagination) | required
+
+Response schema (JSON object):
+results | array[object] | Array of Match Result Objects
+total | integer | Total number of matches in the database
+
+Each object in the "results" key has the following schema:
+id | string | The CURIE identifier for the match
+name | string | The human-readable name of the match
+categories | string | A list of categories the match belongs to
+description | string | A text description of the entity
+
+GET /disease-phenotypes
+
+This endpoint is for finding phenotypes associated with a given disease.
+
+disease_id | string | CURIE identifier for the disease, e.g. "MONDO:2490133"
+limit | integer | Maximum number of results to return. A valid value should be an integer between 1 and 10 (inclusive) | required
+offset | integer | Number of results to skip (for pagination) | required
+
+Response schema (JSON object):
+associations | array[object] | Array of associated phenotypes
+total | integer | Total number of associations in the database
+
+Each object in the "associations" key has the following schema:
+id | string | The identifier of the association
+frequency_qualifier | string | A CURIE representing frequency information for the disease phenotype
+onset_qualifier | string | A CURIE representing onset information for the disease phenotype
+phenotype | object | A text description of the entity
+
+Each phenotype object as the following schema:
+id | A CURIE specific to the phenotype
+label | A human-readable label for the phenotype

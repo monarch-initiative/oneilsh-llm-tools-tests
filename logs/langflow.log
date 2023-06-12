@@ -1,0 +1,2062 @@
+2023-06-06 08:09:38,692 - INFO - Logger set up with log level: 20(info)
+2023-06-06 08:09:38,696 - INFO - Log file: logs/langflow.log
+2023-06-06 08:09:51,613 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,613 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,702 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,710 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,710 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,724 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,607 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,663 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,678 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,679 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,681 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,681 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:46,150 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:10:46,152 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:10:46,153 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:10:46,154 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:11:09,286 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:11:11,983 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:22:38,641 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:23:56,537 - ERROR - Error: Could not parse LLM output: `I don't know.`
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 180, in get_result_and_steps
+    output = await langchain_object.acall(chat_input, callbacks=async_callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 178, in acall
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 172, in acall
+    await self._acall(inputs, run_manager=run_manager)
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 1002, in _acall
+    next_step_output = await self._atake_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 928, in _atake_next_step
+    result = await asyncio.gather(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 909, in _aperform_agent_action
+    observation = await tool.arun(
+                  ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 294, in arun
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 288, in arun
+    await self._arun(*tool_args, run_manager=run_manager, **tool_kwargs)
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 373, in _arun
+    raise NotImplementedError("Tool does not support async")
+NotImplementedError: Tool does not support async
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 185, in get_result_and_steps
+    output = langchain_object(chat_input, callbacks=sync_callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 140, in __call__
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 953, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 773, in _take_next_step
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/mrkl/output_parser.py", line 27, in parse
+    raise OutputParserException(
+langchain.schema.OutputParserException: Could not parse LLM output: `I don't know.`
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 215, in process_graph
+    result, intermediate_steps = await get_result_and_steps(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 198, in get_result_and_steps
+    raise ValueError(f"Error: {str(exc)}") from exc
+ValueError: Error: Could not parse LLM output: `I don't know.`
+2023-06-06 08:23:57,132 - ERROR - Error: Could not parse LLM output: `I don't know.`
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 180, in get_result_and_steps
+    output = await langchain_object.acall(chat_input, callbacks=async_callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 178, in acall
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 172, in acall
+    await self._acall(inputs, run_manager=run_manager)
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 1002, in _acall
+    next_step_output = await self._atake_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 928, in _atake_next_step
+    result = await asyncio.gather(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 909, in _aperform_agent_action
+    observation = await tool.arun(
+                  ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 294, in arun
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 288, in arun
+    await self._arun(*tool_args, run_manager=run_manager, **tool_kwargs)
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 373, in _arun
+    raise NotImplementedError("Tool does not support async")
+NotImplementedError: Tool does not support async
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 185, in get_result_and_steps
+    output = langchain_object(chat_input, callbacks=sync_callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 140, in __call__
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 953, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 773, in _take_next_step
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/mrkl/output_parser.py", line 27, in parse
+    raise OutputParserException(
+langchain.schema.OutputParserException: Could not parse LLM output: `I don't know.`
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 120, in process_message
+    result, intermediate_steps = await process_graph(
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 223, in process_graph
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 215, in process_graph
+    result, intermediate_steps = await get_result_and_steps(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 198, in get_result_and_steps
+    raise ValueError(f"Error: {str(exc)}") from exc
+ValueError: Error: Could not parse LLM output: `I don't know.`
+2023-06-06 08:23:57,858 - ERROR - Error: Could not parse LLM output: `I don't know.`
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 180, in get_result_and_steps
+    output = await langchain_object.acall(chat_input, callbacks=async_callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 178, in acall
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 172, in acall
+    await self._acall(inputs, run_manager=run_manager)
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 1002, in _acall
+    next_step_output = await self._atake_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 928, in _atake_next_step
+    result = await asyncio.gather(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 909, in _aperform_agent_action
+    observation = await tool.arun(
+                  ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 294, in arun
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 288, in arun
+    await self._arun(*tool_args, run_manager=run_manager, **tool_kwargs)
+  File "/usr/local/lib/python3.11/site-packages/langchain/tools/base.py", line 373, in _arun
+    raise NotImplementedError("Tool does not support async")
+NotImplementedError: Tool does not support async
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 185, in get_result_and_steps
+    output = langchain_object(chat_input, callbacks=sync_callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 140, in __call__
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/chains/base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 953, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 773, in _take_next_step
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langchain/agents/mrkl/output_parser.py", line 27, in parse
+    raise OutputParserException(
+langchain.schema.OutputParserException: Could not parse LLM output: `I don't know.`
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 175, in handle_websocket
+    await self.process_message(client_id, payload)
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 130, in process_message
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 120, in process_message
+    result, intermediate_steps = await process_graph(
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 223, in process_graph
+    raise e
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 215, in process_graph
+    result, intermediate_steps = await get_result_and_steps(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 198, in get_result_and_steps
+    raise ValueError(f"Error: {str(exc)}") from exc
+ValueError: Error: Could not parse LLM output: `I don't know.`
+2023-06-06 08:24:00,516 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:24:08,406 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:24:08,407 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:48:21,647 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:48:42,016 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:48:42,017 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:48:44,310 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 09:50:15,092 - ERROR - 1006
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1006
+2023-06-06 09:50:15,281 - ERROR - Cannot call "send" once a close message has been sent.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1006
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 181, in handle_websocket
+    await self.active_connections[client_id].close(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in sender
+    await send(message)
+  File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 329, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 189, in handle_websocket
+    await connection.close(code=1000, reason="Client disconnected")
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 87, in send
+    raise RuntimeError('Cannot call "send" once a close message has been sent.')
+RuntimeError: Cannot call "send" once a close message has been sent.
+2023-06-12 09:57:30,620 - INFO - Logger set up with log level: 20(info)
+2023-06-12 09:57:30,625 - INFO - Log file: logs/langflow.log
+2023-06-12 09:57:53,271 - ERROR - 1005
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1005
+2023-06-12 09:57:53,380 - ERROR - Cannot call "send" once a close message has been sent.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1005
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 181, in handle_websocket
+    await self.active_connections[client_id].close(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in sender
+    await send(message)
+  File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 329, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 189, in handle_websocket
+    await connection.close(code=1000, reason="Client disconnected")
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 87, in send
+    raise RuntimeError('Cannot call "send" once a close message has been sent.')
+RuntimeError: Cannot call "send" once a close message has been sent.
+2023-06-12 09:57:54,514 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:54,515 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:54,516 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:54,517 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:54,518 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:54,519 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:56,755 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:56,756 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:56,757 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:56,758 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:56,758 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:57:56,758 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 09:58:30,163 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-12 10:41:10,267 - ERROR - 1006
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1006
+2023-06-12 10:41:10,455 - ERROR - Cannot call "send" once a close message has been sent.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1006
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 181, in handle_websocket
+    await self.active_connections[client_id].close(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in sender
+    await send(message)
+  File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 329, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 189, in handle_websocket
+    await connection.close(code=1000, reason="Client disconnected")
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 87, in send
+    raise RuntimeError('Cannot call "send" once a close message has been sent.')
+RuntimeError: Cannot call "send" once a close message has been sent.
+2023-06-12 10:57:32,844 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-12 10:57:59,497 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-12 10:57:59,500 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-12 10:58:55,668 - ERROR - 1012
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1012
+2023-06-12 10:58:55,708 - ERROR - Cannot call "send" once a close message has been sent.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1012
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 181, in handle_websocket
+    await self.active_connections[client_id].close(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in sender
+    await send(message)
+  File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 329, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 189, in handle_websocket
+    await connection.close(code=1000, reason="Client disconnected")
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 87, in send
+    raise RuntimeError('Cannot call "send" once a close message has been sent.')
+RuntimeError: Cannot call "send" once a close message has been sent.
+2023-06-12 11:40:36,218 - INFO - Logger set up with log level: 20(info)
+2023-06-12 11:40:36,223 - INFO - Log file: logs/langflow.log
+2023-06-12 11:40:50,843 - ERROR - 1005
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1005
+2023-06-12 11:40:50,980 - ERROR - Cannot call "send" once a close message has been sent.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1005
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 181, in handle_websocket
+    await self.active_connections[client_id].close(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in sender
+    await send(message)
+  File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 329, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 189, in handle_websocket
+    await connection.close(code=1000, reason="Client disconnected")
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 87, in send
+    raise RuntimeError('Cannot call "send" once a close message has been sent.')
+RuntimeError: Cannot call "send" once a close message has been sent.
+2023-06-12 11:40:52,017 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:52,079 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:52,081 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:52,082 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:52,092 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:52,097 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:54,545 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:54,545 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:54,546 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:54,546 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:54,546 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:40:54,547 - ERROR - Please, reload the file in the loader.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 124, in save_binary_file
+    raise ValueError("Please, reload the file in the loader.")
+ValueError: Please, reload the file in the loader.
+2023-06-12 11:47:58,019 - ERROR - 1012
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1012
+2023-06-12 11:47:58,060 - ERROR - Cannot call "send" once a close message has been sent.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 165, in handle_websocket
+    json_payload = await websocket.receive_json()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 133, in receive_json
+    self._raise_on_disconnect(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 105, in _raise_on_disconnect
+    raise WebSocketDisconnect(message["code"])
+starlette.websockets.WebSocketDisconnect: 1012
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 181, in handle_websocket
+    await self.active_connections[client_id].close(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in sender
+    await send(message)
+  File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 329, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/chat_manager.py", line 189, in handle_websocket
+    await connection.close(code=1000, reason="Client disconnected")
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 180, in close
+    await self.send(
+  File "/usr/local/lib/python3.11/site-packages/starlette/websockets.py", line 87, in send
+    raise RuntimeError('Cannot call "send" once a close message has been sent.')
+RuntimeError: Cannot call "send" once a close message has been sent.

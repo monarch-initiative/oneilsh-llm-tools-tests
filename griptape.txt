@@ -1,0 +1,11 @@
+Data Governance and API Integrations for LLMs
+Connect your internal systems to large language models safely and reliably.
+Why Griptape?
+Griptape offers developers the ability to build AI systems that operate across two dimensions: predictability and creativity.
+For predictability, software structures like sequential pipelines or directed acyclic graphs (DAGs) are enforced. Creativity, on the other hand, is facilitated by safely prompting LLMs with tools that connect to external APIs and data. Developers can move between these two dimensions according to their use case.
+Built for Developers, by Developers
+Griptape is an opinionated Python framework enables developers to fully harness the potential of LLMs while enforcing strict trust boundaries, schema validation, and activity-level permissions.
+Griptape can be used to create conversational and autonomous agents. Its core design tenet is to maximize the reasoning and enforce acting capabilities of LLMs, allowing developers to unleash the LLMs' reasoning potential while adhering to strict policies regarding their ability to act.
+Developers can move between creativity and predictability according to their use case. For instance, if they need control over the order of execution, they may choose to use a pipeline with one tool per task. If they need to build an agent that can handle ambiguity, they can incorporate more tools into a single task.
+[GitHub](https://github.com/griptape-ai/griptape) [PyPI](https://pypi.org/project/griptape/) [Docs](https://docs.griptape.ai)
+# Ramps enable LLMs to store and manipulate # data without ever looking at it directly. text_storage = TextStorageRamp() blob_storage = BlobStorageRamp() # Connect a web scraper to load web pages. web_scraper = WebScraper( ramps={ "get_content": [text_storage] } ) # TextProcessor enables LLMs to summarize and query text. text_processor = TextProcessor( ramps={ "summarize": [text_storage], "query": [text_storage] } ) # File manager can load and store files locally. file_manager = FileManager( ramps={ "load": [blob_storage], "save": [text_storage, blob_storage] } ) agent = Agent( memory=Memory(), task=ToolkitTask( tools=[web_scraper, text_processor, file_manager] ) ) agent.run( "Summarize the doc from https://docs.griptape.ai " "and store it in griptape.txt" )
